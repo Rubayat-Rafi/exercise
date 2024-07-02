@@ -31,9 +31,7 @@ header .logo{
     color: chartreuse;
     position: relative;
 }
-header nav{
-    /* display: flex; */
-}
+
 header nav a{
     display: inline-block;
     color: #fff;
