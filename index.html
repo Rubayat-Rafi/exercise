@@ -4,37 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercise</title>
+
+    <!-- Box icon Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Google font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS Link -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- header section start here -->
     <header>
-        <a href="#" class="logo">Rafi.</a>
-
+        <a href="#" class="logo">Rafi<span>Coder.</span></a>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Portfolio</a>
-            <a href="#" class="btn">Contact</a>
+            <ul class="navlist">
+                <li><a href="#" class="active nav-links">Home</a></li>
+                <li> <a href="#" class="nav-links">About</a></li>
+                <li><a href="#" class="nav-links">Skills</a></li>
+                <li><a href="#" class="nav-links">Portfolio</a></li>
+                <li><a href="#" class="nav-links">Contact</a></li>
+            </ul>
         </nav>
-        
+        <i class='bx bx-menu'></i>
     </header>
 
     <!-- main section start here -->
     <main>
-        <section class="home">
-            <p>Hello,</p>
-            <h1>It's Me Rubayat.</h1>
-            <h2>I'm a Frontend Developer</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, unde totam optio quae, dolorum eveniet quod labore, in atque repellat provident! Ullam eos aspernatur, enim quasi laboriosam corporis dignissimos dolore.</p>
-        </section>
+
+       <!--  main section start here -->
+       <section class="home" id="home">
+         <!-- <div class="home-img">
+
+            </div> -->
+        <div class="content">
+                <h3>Hello,</h3>
+                <h1>It's Me <span>Rubayat.</span></h1>
+                <h2>I'm a Frontend Developer</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, unde totam optio quae, dolorum eveniet quod labore, in atque repellat provident! Ullam eos aspernatur, enim quasi laboriosam corporis dignissimos dolore.</p>
+
+                <div class="btn">
+                    <button>Download CV</button>
+                </div>
+            </div>
+       
+        </section> 
+        <!-- main section start here
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
 
     <!-- footer section start here -->
-    <footer>
-        <small> &copy;All Rights Reserved By Rubayat</small>
-    </footer>
+    <!-- <footer>
+        <small> &copy;All Rights Reserved By Rubayat<small>
+    </footer> -->
 </body>
 </html>
